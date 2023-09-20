@@ -1,0 +1,61 @@
+.facebookHeader{color: white;
+    background :#3b5998;}
+    .fb:hover{font-weight: bold;}
+    
+    .loginPageBody{background:#f3f4f9;}
+    /* //Hide Show Btn */
+    #inputPassword{padding-right: 35px;}
+    #showbtn{position: absolute;
+    top: 20%;
+    right: 5px;
+    transform: translate(-50);
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+    
+    }
+    @media (max-width:420px) {
+        .fb{text-align: center;}
+        .display{display: none;}
+    }
+    /* search section input */
+    input{background: lightgray; }
+    /* border for nav  */
+    .border{border-radius: 20px;}
+    /* for all label cursor is pointer */
+    label{cursor: pointer;}
+    /* for all links */
+    a{text-decoration: none !important; }
+    /* for reels set its height and decoration\
+     */
+     .story{background-position: center;background-repeat: no-repeat;background-size: cover;height: 200px;  }
+    /* for links icons and chat img */
+    .round {
+        border-radius: 20px;
+        height: 40px; 
+        
+    }
+    .round1 {
+    
+        height: 30px;
+        border-radius: 10px;
+    }
+    
+    li:hover{
+        background-color: rgb(241, 240, 238);
+        cursor: pointer;}
+    .link:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background: lightgreen; cursor: pointer;
+    }
+    label:hover{cursor:pointer; color: chartreuse;}
+    
+    .text:hover{cursor: pointer; color: greenyellow;}
+    
+    h4:hover{color: aqua !important;}
+    
