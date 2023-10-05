@@ -1,6 +1,16 @@
 var inputPassword = document.getElementById("inputPassword");
 var inputEmail = document.getElementById("inputEmail");
 var inputToggle = document.getElementById("showbtn");
+var showData = document.querySelector(".notification");
+
+//userLogin Show or Hide
+setInterval(() => {
+  showData.classList.toggle("show");
+}, 1000);
+
+setTimeout(() => {
+  showData.classList.toggle("hide");
+}, 5000);
 //register page extra
 var inputName = document.getElementById("inputName");
 function resetLogin() {
